@@ -1,0 +1,200 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html 
+{
+    height: 100%;
+}
+body 
+{
+    min-height: 100%;  
+    font-family: 'Lato', sans-serif;
+    background: #eee;
+    font-weight: 400;
+    color: #222;
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 50px; 
+}
+
+.container 
+{
+    max-width: 700px;   
+    background: #fff;
+    margin: 0px auto 0px; 
+    box-shadow: 1px 1px 2px #DAD7D7;
+    border-radius: 3px;  
+    padding: 40px;
+    margin-top: 50px
+}
+
+.header 
+{
+    margin-bottom: 30px;
+}
+
+.full-name
+{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+hr 
+{
+    margin-top: 5px;
+}
+
+.first-name 
+{
+    font-weight: 700;
+}
+
+.last-name 
+{
+    font-weight: 300;
+}
+
+.myaddress
+{
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    /* font-weight: 700; */
+    font-size: 15px;
+}
+
+.address,
+.email ,
+.phone 
+{
+    color: #999;
+    font-weight: 300;
+} 
+
+.separator 
+{
+    height: 10px;
+    display: inline-block;
+    border-left: 2px solid #999;
+    margin: 0px 10px;
+}
+
+.position 
+{
+    font-size: large;
+    font-weight: 300;
+    color: #999;
+    display: inline-block;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    /* text-decoration: underline; */
+} 
+.desc
+{
+    /* color: #999; */
+    font-weight: 300;
+    word-spacing: 5px;
+}
+
+.details 
+{
+
+    line-height: 20px;
+    font-weight: 300px;
+}
+
+.section 
+{
+    margin-bottom: 40px;  
+}
+
+.section:last-of-type 
+{
+    margin-bottom: 0px;  
+}
+
+.section__title 
+{
+    letter-spacing: 2px;
+    color: #54AFE4;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.section__list-item
+{
+    margin-bottom: 40px;
+}
+
+
+.left ,
+.right 
+{
+    vertical-align: top;
+    display: inline-block;
+}
+
+.left 
+{
+    width: 60%;
+        
+}
+
+.right 
+{
+    text-align: right;
+    width: 39%;    
+}
+
+.name 
+{
+    font-weight: bold;
+}
+
+a
+{
+    cursor: hand;
+    text-decoration:none;
+    color:  #000505 ;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+    color: #fe8ae0;
+}
+
+.skills__item 
+{
+    margin-bottom: 10px;  
+}
+
+input 
+{
+    display: none;
+}
+
+label 
+{
+    display: inline-block;  
+    width: 20px;
+    height: 20px;
+    background: #C3DEF3;
+    border-radius: 20px;
+    margin-right: 3px;
+}
+
+input:checked + label 
+{
+    background: #23286a ;
+}
+.list
+{
+    margin-left: 35px;
+}
